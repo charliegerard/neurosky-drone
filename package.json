@@ -1,0 +1,25 @@
+{
+  "name": "neurosky-drone",
+  "version": "1.0.0",
+  "description": "##Setup: * Clone this repo. * Run 'npm install cylon-ardrone' * Connect to the drone's wifi network * Run 'node drone.js'",
+  "main": "drone.js",
+  "dependencies": {
+    "cylon": "^1.3.0",
+    "cylon-ardrone": "^0.21.0",
+    "cylon-neurosky": "^0.14.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/charliegerard/neurosky-drone.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/charliegerard/neurosky-drone/issues"
+  },
+  "homepage": "https://github.com/charliegerard/neurosky-drone#readme"
+}

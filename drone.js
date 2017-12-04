@@ -16,7 +16,7 @@ Cylon.robot({
 			console.log('attention: ' + data);
 			if(data > 70){
 				my.drone.takeoff();
-				after((4).seconds(), function(){
+				after((3).seconds(), function(){
 					my.drone.land();
 				});
 			}
